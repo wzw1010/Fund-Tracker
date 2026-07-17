@@ -1,0 +1,18 @@
+{
+    "name": "基金跟踪",
+    "short_name": "Fund-Tracker",
+    "description": "基金跟踪工具，实时估值与持仓分析",
+    "start_url": "/Fund-Tracker/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/Fund-Tracker/icon-1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
