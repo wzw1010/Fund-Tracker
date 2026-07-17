@@ -2963,7 +2963,7 @@
                 document.querySelectorAll('.page').forEach(function(p) {
                     if (p !== homePage && p !== currentPage) p.classList.remove('active');
                 });
-                updateHomeCounts();
+                UI.updateHomeCounts();  // ← 改这里
             }, 300);
         }
     });
